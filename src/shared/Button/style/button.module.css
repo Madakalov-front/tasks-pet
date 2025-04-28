@@ -1,0 +1,23 @@
+.btn {
+  padding-block: toRem(10);
+  padding-inline: toRem(14);
+  border-radius: toRem(5);
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: toRem(0.5);
+  font-weight: 600;
+  transition-property: background-color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--ease);
+  &--default {
+    background-color: var(--grey);
+    @mixin hover-effects {
+      background-color: var(--accent);
+    }
+  }
+  &--primary {
+  }
+
+  &--secondary {
+  }
+}

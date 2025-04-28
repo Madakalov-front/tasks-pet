@@ -1,0 +1,4 @@
+.card-list {
+  display: grid;
+  row-gap: toRem(24);
+}

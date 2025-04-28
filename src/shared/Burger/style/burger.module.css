@@ -1,0 +1,13 @@
+.burger {
+    width: toRem(22);
+    height: toRem(22);
+    background-color: var(--grey);
+    border-radius: 50%;
+    transition-property: transform, background-color;
+    transition-duration: var(--duration);
+    transition-timing-function: var(--ease);
+    @mixin hoverEffects {
+        transform: scale(1.05);
+        background-color: var(--accent);
+    }
+}

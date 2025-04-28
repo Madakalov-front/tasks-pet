@@ -1,0 +1,24 @@
+.header-task {
+  height: toRem(105);
+  margin-bottom: toRem(80);
+  position: relative;
+  /* .header-task__inner  */
+  &__inner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: toRem(24);
+    padding-block: toRem(12);
+    padding-inline: toRem(20);
+    background-color: var(--light);
+    border-bottom: var(--border);
+    border-bottom-left-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    box-shadow: 0 0 toRem(20) toRem(2.5) var(--grey);
+    z-index: 120;
+  }
+}
