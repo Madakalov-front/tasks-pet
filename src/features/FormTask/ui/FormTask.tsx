@@ -29,7 +29,7 @@ export const FormTask = ({ handleDispatch, task }: FormTaskProps) => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     handleDispatch(title, description);
-    navigate(-1);
+    navigate('/');
   };
 
   return (

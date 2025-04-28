@@ -7,7 +7,7 @@ const CancelButton = () => {
     <Button
       title="cancel"
       onClick={() => {
-        navigate(-1);
+        navigate('/');
       }}
     />
   );
